@@ -59,5 +59,7 @@ Should you change the audio and/or just want to change the input mapping, you ca
 
 # How it works
 The game works by using the exiting random.randrang function to generate a random number between 1 and 18 (there are 18 different pacenote audio files). Once that random number is generated it sends it to the "valToSound" function that matches the number to an audio file (e.g. 1 = /Audio/1L.mp3) and plays the audio. It also sends that random number to a list "aQueue" that will be used to compare our input to.
+
 It then waits for the user to make an input. Once the user makes an input, it sends that input to iVList, which splits the input up, using a space as the delimiter. It checks for a "q", which would indicate that the user wishes to quit. If it doesn't find one, it converts the list of string inputs into their matching number using the "soundToVal" function ("1l" = 1 Left = 1; the code in "soundToVal" and "valToSound" have to have matching associations. I.e. if 1 in "valToSound" = the 1 Left audio, then "1l" in "soundToVal" has to translate to the value 1.
+
 Once the user input is translated into numbers and put into the iValueList, the program then compares "aQueue" and "iValueList" using the "queComp" function. If they match it returns True, and runs the "correct" function, if they don't match, it runs the "wrong" function".
