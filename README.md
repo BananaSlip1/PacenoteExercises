@@ -1,5 +1,5 @@
 # PacenoteRepeat
-Just a simple program that prompts the use (audio) with rally pacenotes then lets the user repeat (type) the pacenotes back. Made it to help train pacenote recall.
+Just a simple program that prompts the user (via audio) with rally pacenotes then lets the user repeat (type) the pacenotes back. Made it to help train pacenote recall.
 
 # Background
 If you're like me, I find that I lose track of pacenotes while sim rallying for different reasons (correcting for bad entries, irl distractions, etc.), so I figured I could use some pacenote hearing/remembering practice. I threw together this  basic Python program that will call out random pacenotes (1-6 L/R; Flat, Square, Hairpin L/R) and prompts you to repeat (type) the last N pacenotes. N can be any number. I find I really start to suffer at N = 3...cuz I is a dumb. There are some bugs, but it works for what I want to practice: Hear pacenote, make decision(s), recall pacenote, hear next pacenote, repeat.
