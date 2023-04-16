@@ -43,9 +43,9 @@ When N is greater than 1, make sure you put spaces between your entires, e.g. if
 To quit, just type "q" and it'll take you back to the menu.
 
 # Known bugs
-It works to a standard good enought for me, so I'm not really planning on editting the code much in the immediate future, but here are some known bugs:
+It works to a standard good enough for me, so I'm not really planning on editting the code much in the immediate future, but here are some known bugs:
 - No intelligent input handling, i.e. the program expects users to type the appropriate inputs. It won't explode if you don't, but there aren't any cute "That isn't a valid input" messages or anything like that.
-- As mentioned above, the game will tell you that your input is incorrect when N is greater than 1 until the number of read pacenotes equals your N. E.g. if I have N set to 3, I _cannot_ be correct until the third note is read.
+- As mentioned above, the game will tell you that your input is incorrect when N is greater than 1 until the number of read pacenotes equals your N. E.g. if I have N set to 3, I _cannot_ be correct until the third note is read, but should be find after that.
 - Because I wrote this in Visual Studio, I had to use a very manual "print("\n" * 20)" to _clear_ the screen. Outside of Visual Studio, changing the code in the clear funciton to "os.system('cls')" (windows) or "os.system('clear')" (\*nix) will clear the screen in a much more pretty way (if you want to do this, make sure to import os).
 
 # Modify input/audios
