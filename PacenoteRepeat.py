@@ -186,10 +186,12 @@ def aQueUpd(rValue):
 def iVList(iValue):
 	global iValueList
 	global x
+	global aQueue
 	iValueList = deque(list(iValue.split(" ")))
 	#print("Split:", iValueList)
 	for i in iValueList:
 		if (i == "q"):
+			aQueue = deque()
 			x = False
 			return
 	for i in iValueList:
