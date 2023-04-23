@@ -1,11 +1,11 @@
-# Pacenote Excersies
+# Pacenote Excersies (in dev)
 After playing this some I decided I would included the n-back version of the game as well as include one I haven't coded yet, it'll be a simon type game where the user will input all the read pacenotes. Haven't decided if it'll repeat the whole thing everytime or if it'll only read one pacenote each time. Shouldn't be hard to make either an option. I also have some ideas of some additional functionality I want to add to the existing code. All that to say, this Repo will be all three games:
-- N-repeat
-- N-back
-- Simon
+- N-repeat (in current version)
+- N-back (in the works)
+- Simon (works, need to update github)
 
 
-# PacenoteRepeat
+# PacenoteRepeat (Working)
 Just a simple program that prompts the user (via audio) with rally pacenotes then lets the user repeat (type) the pacenotes back. Made it to help train pacenote recall.
 
 ## Background
